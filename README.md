@@ -6,7 +6,7 @@ The interface defaults to **English**. Select **中文** in the sidebar to switc
 
 **推荐入口：**打开 [`Start_RAG.ipynb`](Start_RAG.ipynb)，选择 Python 3.12 内核，点击「全部运行」。它会准备依赖、恢复预建知识库、启动应用，并在 Notebook 内展示界面；也可以点击链接在新标签页打开。重复运行启动单元格会复用同一个进程；按 Notebook 说明运行 `rag.stop()` 可停止。需要在浏览器所在电脑本地运行 Jupyter，远程云 Notebook 的 localhost 不指向本机。
 
-项目包含两本 PDF 及 `knowledge/` 中的预建索引。运行时的 `data/`、模型缓存、虚拟环境和临时日志均在 `.gitignore` 中。本地 Git 仓库已准备，按本次要求未创建远端、未推送。
+项目包含两本 PDF 及 `knowledge/` 中的预建索引。运行时的 `data/`、模型缓存、虚拟环境和临时日志均在 `.gitignore` 中。公开远端仓库为 [`ssstansfield/basis-beyond-rag`](https://github.com/ssstansfield/basis-beyond-rag)。
 
 本地运行的中英文书籍问答应用。现阶段的知识领域是：**美国国债现货与期货、基差与交割、套利交易，以及 LTCM 案例中的杠杆、流动性与风险管理**。
 
