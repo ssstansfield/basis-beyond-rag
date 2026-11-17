@@ -1,0 +1,10 @@
+.venv/
+data/
+tmp/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+.DS_Store
